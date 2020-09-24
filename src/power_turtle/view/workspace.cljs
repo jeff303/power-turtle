@@ -5,6 +5,7 @@
     [power-turtle.view.canvas.quil-canvas :as quil-canvas]
     [power-turtle.view.canvas.raster-canvas :as raster-canvas]
     [power-turtle.view.canvas.turtle-canvas :as turtle-canvas]
+    [power-turtle.view.canvas.specter-canvas :as specter-canvas]
     [power-turtle.view.help :as help]
     [power-turtle.view.repl :as repl]
     [power-turtle.view.toolbar :as toolbar]
@@ -16,7 +17,8 @@
    "raster" [raster-canvas/raster-canvas]
    "quil" [quil-canvas/quil-canvas]
    "chart" [chart-canvas/chart-canvas]
-   "html" [html-canvas/html-space]})
+   "html" [html-canvas/html-space]
+   "specter" [specter-canvas/html-space]})
 
 (defonce freestyle-canvas
   (reagent/atom "turtle"))

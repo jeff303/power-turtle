@@ -40,7 +40,8 @@
                  [re-complete "0.1.4-1-SNAPSHOT"]
                  [soda-ash "0.83.0"]
                  ;; TODO: upgrade to just reanimated
-                 [timothypratley/reanimated "0.3.0"]]
+                 [timothypratley/reanimated "0.3.0"]
+                 [com.rpl/specter "1.1.3"]]
 
   :plugins [[lein-figwheel "0.5.18"]
             [lein-cban "0.1.0"]
